@@ -7,6 +7,7 @@ from logger import Logger
 import os
 from persistence.create_dbs import CreateDb
 from persistence.create_cat import CreateCat
+from persistence.create_dir import CreateDir
 
 
 class DaoCovid(Connection):
@@ -57,3 +58,7 @@ class DaoCovid(Connection):
         conn = self.objc.connect()
         obj_copy = CreateCat()
         obj_copy.crea_catalogo(conn)
+
+    def create_dir(self):
+        obj_create = CreateDir()
+        obj_create.create_dir(self.path_r)
