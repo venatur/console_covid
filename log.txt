@@ -1,0 +1,140 @@
+
+Log is due on 25/08/2020 17:33:56
+
+descarga realizada
+Time:0:00:00.281250
+
+Log is due on 25/08/2020 17:33:57
+
+Archivo decompreso
+Time:0:00:00.750000
+
+Log is due on 25/08/2020 17:33:57
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 25/08/2020 17:34:01
+
+Copied succesfully to postgresql
+Time:0:00:00.531250
+
+Log is due on 26/08/2020 09:00:43
+
+descarga realizada
+Time:0:00:00.171875
+
+Log is due on 26/08/2020 09:00:44
+
+Archivo decompreso
+Time:0:00:00.750000
+
+Log is due on 26/08/2020 09:00:44
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 26/08/2020 09:00:49
+
+Copied succesfully to postgresql
+Time:0:00:01.125000
+
+Log is due on 26/08/2020 09:15:17
+
+descarga realizada
+Time:0:00:00.343750
+
+Log is due on 26/08/2020 09:15:18
+
+Archivo decompreso
+Time:0:00:00.875000
+
+Log is due on 26/08/2020 09:15:18
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 26/08/2020 09:15:23
+
+Copied succesfully to postgresql
+Time:0:00:01.281250
+
+Log is due on 26/08/2020 09:15:23
+
+files copied to db
+Time:0:00:00
+
+Log is due on 26/08/2020 14:17:38
+
+descarga realizada
+Time:0:00:00.484375
+
+Log is due on 26/08/2020 14:17:39
+
+Archivo decompreso
+Time:0:00:01
+
+Log is due on 26/08/2020 14:17:39
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 26/08/2020 14:17:44
+
+Copied succesfully to postgresql
+Time:0:00:01.984375
+
+Log is due on 26/08/2020 14:17:44
+
+Error: [Errno 2] No such file or directory: 'res/catalogos/estados.csv'
+Time:0:00:00
+
+Log is due on 26/08/2020 14:24:44
+
+descarga realizada
+Time:0:00:00.562500
+
+Log is due on 26/08/2020 14:24:45
+
+Archivo decompreso
+Time:0:00:01.125000
+
+Log is due on 26/08/2020 14:24:45
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 26/08/2020 14:24:51
+
+Copied succesfully to postgresql
+Time:0:00:02.031250
+
+Log is due on 26/08/2020 14:24:51
+
+files copied to db
+Time:0:00:00
+
+Log is due on 26/08/2020 15:00:38
+
+descarga realizada
+Time:0:00:00.468750
+
+Log is due on 26/08/2020 15:00:39
+
+Archivo decompreso
+Time:0:00:01
+
+Log is due on 26/08/2020 15:00:39
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 26/08/2020 15:00:44
+
+Copied succesfully to postgresql
+Time:0:00:02.203125
+
+Log is due on 26/08/2020 15:00:44
+
+files copied to db
+Time:0:00:00

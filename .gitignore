@@ -1,0 +1,6 @@
+/res
+/venv
+Pipfile
+Pipfile.lock
+__pycache__/
+*.idea
