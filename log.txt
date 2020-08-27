@@ -163,3 +163,28 @@ Log is due on 26/08/2020 16:50:02
 
 files copied to db
 Time:0:00:00.015625
+
+Log is due on 27/08/2020 07:26:07
+
+descarga realizada
+Time:0:00:00.453125
+
+Log is due on 27/08/2020 07:26:08
+
+Archivo decompreso
+Time:0:00:00.890625
+
+Log is due on 27/08/2020 07:26:08
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 27/08/2020 07:26:14
+
+Copied succesfully to postgresql
+Time:0:00:01.875000
+
+Log is due on 27/08/2020 07:26:14
+
+files copied to db
+Time:0:00:00

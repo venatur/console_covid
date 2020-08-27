@@ -1,6 +1,5 @@
 import os
 
-
 class CreateDir():
 
     def create_dir(self, dir):
