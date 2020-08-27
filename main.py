@@ -1,22 +1,21 @@
-import config
-import os
 from dao_covid import DaoCovid
+import schedule
+import time
 from logger import Logger
+from datetime import datetime, date
 
-def cls(): print("\n" * 50)
+
+def job():
+    today = str(date.today())
+    current_time = time.process_time()
+    obj.log('saved at ' + today, current_time)
+    DaoCovid()
 
 
-val = True
-while val:
-    print("Bienvenido a Sistema Covid-Uabc\n")
-    print("Seleccione una opcion:\n")
-    print("1.- Descarga de Base de datos\n")
-    print("2.- Salir\n")
-    val = input()
-    if val == '1':
-        DaoCovid()
+obj = Logger()
+schedule.every(15).hours.do(job)
 
-    else:
-        val = False
+while True:
+    schedule.run_pending()
+    time.sleep(1)
 
-    cls()

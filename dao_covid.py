@@ -20,6 +20,8 @@ class DaoCovid(Connection):
         self.path = Config.ZIP_FILE
         self.path_r = Config.UPLOAD_FOLDER
         self.extension = Config.EXTENSION
+        self.cat_url = Config.CATALOGOS
+
 
         self.create_dir()
         self.searching_ext()
