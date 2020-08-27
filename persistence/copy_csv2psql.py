@@ -8,7 +8,7 @@ class CopyCsv:
     def copy_from_file(self, conn, path):
         t = time.process_time()
         log = Logger()
-        f = open(path, 'r')
+        f = open(path, 'r', encoding="latin_1")
         cursor = conn.cursor()
 
         try:

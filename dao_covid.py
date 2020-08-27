@@ -21,6 +21,7 @@ class DaoCovid(Connection):
         self.path_r = Config.UPLOAD_FOLDER
         self.extension = Config.EXTENSION
 
+        self.create_dir()
         self.searching_ext()
         self.download_resource(obj)
         self.path_csv = self.unzip_resource()
