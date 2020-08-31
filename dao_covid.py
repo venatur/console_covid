@@ -22,7 +22,6 @@ class DaoCovid(Connection):
         self.extension = Config.EXTENSION
         self.cat_url = Config.CATALOGOS
 
-
         self.create_dir()
         self.searching_ext()
         self.download_resource(obj)
