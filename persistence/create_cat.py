@@ -67,6 +67,14 @@ class CreateCat:
                         """
             cursor.copy_expert(sql=copy_sql, file=f)
             f.close()
+            path = 'res/catalogos/sector.csv'
+            f = open(path, 'r', encoding="latin_1")
+            copy_sql = """
+                                    COPY sector from stdin WITH CSV HEADER
+                                    DELIMITER as ','
+                                    """
+            cursor.copy_expert(sql=copy_sql, file=f)
+            f.close()
             conn.commit()
             elapsed_t = time.process_time() -t
             log.log('files copied to db', elapsed_t)
