@@ -8,6 +8,7 @@ class CreateDb(Logger):
         obj_t = Logger()
         t = time.process_time()
         cursor = conn.cursor()
+
         cursor.execute("""
                 DROP TABLE IF EXISTS daily;
                 CREATE UNLOGGED TABLE daily (

@@ -1573,3 +1573,72 @@ Log is due on 31/08/2020 18:09:55
 
 descarga realizada
 Time:0:00:00.046875
+
+Log is due on 01/09/2020 12:43:25
+
+descarga realizada
+Time:0:00:00.421875
+
+Log is due on 01/09/2020 12:43:26
+
+Archivo decompreso res/
+Time:0:00:00.859375
+
+Log is due on 01/09/2020 12:43:27
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 01/09/2020 12:54:48
+
+descarga realizada
+Time:0:00:00.265625
+
+Log is due on 01/09/2020 12:54:49
+
+Archivo decompreso res/
+Time:0:00:00.781250
+
+Log is due on 01/09/2020 12:54:49
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 01/09/2020 13:00:16
+
+Datos copiados a tabla
+Time:0:02:13.218750
+
+Log is due on 01/09/2020 13:00:16
+
+Error: datos extra después de la última columna esperada
+CONTEXT:  COPY sector, línea 2: «1,CRUZ ROJA,»
+
+Time:0:00:00.015625
+
+Log is due on 01/09/2020 13:04:24
+
+descarga realizada
+Time:0:00:00.375000
+
+Log is due on 01/09/2020 13:04:25
+
+Archivo decompreso res/
+Time:0:00:00.875000
+
+Log is due on 01/09/2020 13:04:25
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 01/09/2020 13:10:14
+
+Datos copiados a tabla
+Time:0:02:21.187500
+
+Log is due on 01/09/2020 13:10:15
+
+Error: datos extra después de la última columna esperada
+CONTEXT:  COPY sector, línea 5: «4,IMSS,»
+
+Time:0:00:00
