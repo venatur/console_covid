@@ -30,7 +30,7 @@ class CopyCsv:
                     f_def = None
 
                 sqlInsert = \
-                    "INSERT INTO daily (fecha_actualizacion, id_registro, origen, " \
+                    "INSERT INTO daily2 (fecha_actualizacion, id_registro, origen, " \
                     "sector, entidad_um, sexo, entidad_nac, entidad_res, municipio_res," \
                     "tipo_paciente,fecha_ingreso, fecha_sintomas, fecha_def, intubado, neumonia, edad," \
                     "nacionalidad,embarazo, habla_lengua_indig, diabetes, epoc, asma, inmusupr, hipertension, otra_com," \
@@ -79,4 +79,5 @@ class CopyCsv:
         cursor.close()
         elapsed_t = time.process_time() - t
         log.log('Datos copiados a tabla', elapsed_t)
+
 

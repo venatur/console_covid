@@ -1642,3 +1642,80 @@ Error: datos extra después de la última columna esperada
 CONTEXT:  COPY sector, línea 5: «4,IMSS,»
 
 Time:0:00:00
+
+Log is due on 02/09/2020 14:13:44
+
+descarga realizada
+Time:0:00:00.296875
+
+Log is due on 02/09/2020 14:13:45
+
+Archivo decompreso res/
+Time:0:00:00.750000
+
+Log is due on 02/09/2020 14:13:45
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 02/09/2020 14:18:56
+
+Datos copiados a tabla
+Time:0:02:10.265625
+
+Log is due on 02/09/2020 14:18:56
+
+Error: datos extra después de la última columna esperada
+CONTEXT:  COPY sector, línea 5: «4,IMSS,»
+
+Time:0:00:00
+
+Log is due on 02/09/2020 14:20:39
+
+descarga realizada
+Time:0:00:00.203125
+
+Log is due on 02/09/2020 14:20:40
+
+Archivo decompreso res/
+Time:0:00:00.765625
+
+Log is due on 02/09/2020 14:20:40
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 02/09/2020 14:26:07
+
+Datos copiados a tabla
+Time:0:02:24.312500
+
+Log is due on 02/09/2020 14:26:07
+
+files copied to db
+Time:0:00:00
+
+Log is due on 04/09/2020 09:39:38
+
+descarga realizada
+Time:0:00:00.296875
+
+Log is due on 04/09/2020 09:39:39
+
+Archivo decompreso res/
+Time:0:00:00.750000
+
+Log is due on 04/09/2020 09:39:39
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 04/09/2020 09:44:55
+
+Datos copiados a tabla
+Time:0:02:09.656250
+
+Log is due on 04/09/2020 09:44:55
+
+files copied to db
+Time:0:00:00
