@@ -8,6 +8,7 @@ import os
 from persistence.create_dbs import CreateDb
 from persistence.create_cat import CreateCat
 from persistence.create_dir import CreateDir
+from persistence.toRegistros import ToRegistros
 
 
 class DaoCovid(Connection):
@@ -29,6 +30,7 @@ class DaoCovid(Connection):
         self.create_db()
         self.copy_data_todb()
         self.copy_data_cat()
+        self.compareOldNew()
 
     def download_resource(self, obj):
         obj_down = DownloadUrl()
@@ -64,3 +66,8 @@ class DaoCovid(Connection):
     def create_dir(self):
         obj_create = CreateDir()
         obj_create.create_dir(self.path_r)
+
+    def compareOldNew(self):
+        conn = self.objc.connect()
+        obj_regs = ToRegistros()
+        obj_regs.copyToRegistros(conn)

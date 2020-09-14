@@ -30,7 +30,7 @@ class CopyCsv:
                     f_def = None
 
                 sqlInsert = \
-                    "INSERT INTO daily2 (fecha_actualizacion, id_registro, origen, " \
+                    "INSERT INTO new_data (fecha_actualizacion, id_registro, origen, " \
                     "sector, entidad_um, sexo, entidad_nac, entidad_res, municipio_res," \
                     "tipo_paciente,fecha_ingreso, fecha_sintomas, fecha_def, intubado, neumonia, edad," \
                     "nacionalidad,embarazo, habla_lengua_indig, diabetes, epoc, asma, inmusupr, hipertension, otra_com," \
@@ -72,6 +72,8 @@ class CopyCsv:
                                            row['PAIS_ORIGEN'],
                                            row['UCI']
                                            ])
+
+
                 conn.commit()
         except csv.Error as e:
             sys.exit('file {}, line {}: {}'.format(path, reader.line_num, e))

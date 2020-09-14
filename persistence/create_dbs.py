@@ -133,8 +133,6 @@ class CreateDb(Logger):
                                         );
                                     """)
         cursor.execute("""
-                                    """)
-        cursor.execute("""
                                                 CREATE TABLE IF NOT EXISTS registros (
                                                     diarios  INTEGER,
                                                     fecha  DATE
