@@ -63,3 +63,43 @@ Log is due on 14/09/2020 10:13:46
 
 Tablas creadas
 Time:0:00:00
+
+Log is due on 14/09/2020 10:19:55
+
+Datos copiados a tabla
+Time:0:02:43.109375
+
+Log is due on 14/09/2020 10:19:55
+
+files copied to db
+Time:0:00:00
+
+Log is due on 14/09/2020 10:22:26
+
+descarga realizada
+Time:0:00:00.468750
+
+Log is due on 14/09/2020 10:22:27
+
+Archivo decompreso res/
+Time:0:00:00.781250
+
+Log is due on 14/09/2020 10:22:27
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 14/09/2020 10:28:33
+
+Datos copiados a tabla
+Time:0:02:38.687500
+
+Log is due on 14/09/2020 10:28:33
+
+files copied to db
+Time:0:00:00
+
+Log is due on 14/09/2020 10:28:38
+
+Registro en Registros
+Time:0:00:00

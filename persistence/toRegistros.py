@@ -9,7 +9,7 @@ class ToRegistros:
         log = Logger()
         cursor = conn.cursor()
         sql_query = "insert into registros " \
-                    "select count(*) as numero, d2.fecha_actualizacion as fecha" \
+                    "select count(*) as numero, d2.fecha_actualizacion as fecha " \
                     "from new_data as d2 " \
                     "where not exists( " \
                     "select * from old_data as d " \
