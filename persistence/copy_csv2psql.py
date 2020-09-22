@@ -2,6 +2,7 @@ from logger import Logger
 import time
 import csv
 import sys
+import os
 
 """class with method to copy data to daily table on postgres database"""
 class CopyCsv:
@@ -81,5 +82,4 @@ class CopyCsv:
         cursor.close()
         elapsed_t = time.process_time() - t
         log.log('Datos copiados a tabla', elapsed_t)
-
-
+        os.remove(path)
