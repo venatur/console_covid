@@ -4,11 +4,14 @@ from config import Config
 from persistence.download_url import DownloadUrl
 from persistence.copy_csv2psql import CopyCsv
 import os
-from persistence.create_dbs import CreateDb
+from extras.create_dbs import CreateDb
 from persistence.create_cat import CreateCat
 from persistence.create_dir import CreateDir
 from persistence.toRegistros import ToRegistros
 from persistence.saveChangesDb import SaveDataChanges
+from persistence.save_nuevos import SaveNuevos
+from persistence.deleteFromDB import DeleteFromDB
+from persistence.yesterdayData import YesterdayData
 
 
 class DaoCovid(Connection):
@@ -20,6 +23,7 @@ class DaoCovid(Connection):
         self.path_r = Config.UPLOAD_FOLDER
         self.extension = Config.EXTENSION
         self.cat_url = Config.CATALOGOS
+        self.hist_path = Config.HISTORY
 
         #self.create_dir()
         #self.searching_ext()
@@ -54,7 +58,7 @@ class DaoCovid(Connection):
     def copy_data_todb(self, path_csv):
         conn = self.objc.connect()
         obj_copy = CopyCsv()
-        obj_copy.copy_from_file(conn, self.path_r+path_csv)
+        obj_copy.copy_from_file(conn, path_csv)
 
     def copy_data_cat(self):
         conn = self.objc.connect()
@@ -73,4 +77,18 @@ class DaoCovid(Connection):
     def saveChanges(self):
         conn = self.objc.connect()
         obj_regs = SaveDataChanges()
+        obj_regs.SaveData(conn)
+
+    def saveNuevos(self):
+        conn = self.objc.connect()
+        obj_regs = SaveNuevos()
+        obj_regs.SaveData(conn)
+
+    def deleteDb(self):
+        conn = self.objc.connect()
+        obj_regs = DeleteFromDB(conn)
+        obj_regs.deleteData()
+    def saveYesterday(self):
+        conn = self.objc.connect()
+        obj_regs = YesterdayData()
         obj_regs.SaveData(conn)

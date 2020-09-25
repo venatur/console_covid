@@ -1,22 +1,20 @@
 from logger import Logger
 import time
+from persistence.extra_vars import getFecha
 """class with method to copy data to daily table on postgres database"""
 
 
 class SaveDataChanges:
 
     def SaveData(self, conn):
-        """recieves connection variable and path of csv file, insterts row by row data to database
+        """receives connection variable and path of csv file, insterts row by row data to database
         function(conn[connector from postgres_connect class], path[path of csv file]) -> instert rows
         and change values before insertions
         """
         t = time.process_time()
         log = Logger()
         cursor = conn.cursor()
-        sqlQuery = "select fecha_actualizacion from new_data"
-        cursor.execute(sqlQuery)
-        fecha = cursor.fetchone()
-        print(fecha[0])
+        fecha = getFecha(cursor)
         sqlQuery = "insert into cambios("\
         "select d2.id_registro,"\
            "CASE WHEN od.origen <> d2.origen THEN 1 ELSE 0 END                         as origen,"\
@@ -74,5 +72,6 @@ class SaveDataChanges:
         cursor.execute(sqlQuery, [fecha[0]])
         conn.commit()
         cursor.close()
+
         elapsed_t = time.process_time() - t
         log.log('Datos de cambios copiados a tabla', elapsed_t)

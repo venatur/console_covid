@@ -22,6 +22,7 @@ class CopyCsv:
                 f_ing = row['FECHA_INGRESO']
                 f_sint = row['FECHA_SINTOMAS']
                 f_def = row['FECHA_DEF']
+                muni = row['MUNICIPIO_RES']
                 compar = '9999-99-99'
                 if f_ing == '9999-99-99':
                     f_ing = None
@@ -29,6 +30,8 @@ class CopyCsv:
                     f_sint = None
                 elif f_def == compar:
                     f_def = None
+                if not muni.isdigit():
+                    muni = None
 
                 sqlInsert = \
                     "INSERT INTO new_data (fecha_actualizacion, id_registro, origen, " \
@@ -45,7 +48,7 @@ class CopyCsv:
                                            row['SEXO'],
                                            row['ENTIDAD_NAC'],
                                            row['ENTIDAD_RES'],
-                                           row['MUNICIPIO_RES'],
+                                           muni,
                                            row['TIPO_PACIENTE'],
                                            f_ing,
                                            f_sint,
@@ -82,4 +85,3 @@ class CopyCsv:
         cursor.close()
         elapsed_t = time.process_time() - t
         log.log('Datos copiados a tabla', elapsed_t)
-        os.remove(path)

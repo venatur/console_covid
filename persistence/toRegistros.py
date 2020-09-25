@@ -1,5 +1,6 @@
 from logger import Logger
 import time
+from persistence.extra_vars import getFecha, get_numero
 
 
 class ToRegistros:
@@ -8,14 +9,12 @@ class ToRegistros:
         t = time.process_time()
         log = Logger()
         cursor = conn.cursor()
-        sql_query = "insert into registros " \
-                    "select count(*) as numero, d2.fecha_actualizacion as fecha " \
-                    "from new_data as d2 " \
-                    "where not exists( " \
-                    "select * from old_data as d " \
-                    "where d.id_registro=d2.id_registro) "\
-                    "group by d2.fecha_actualizacion"
-        cursor.execute(sql_query)
+        fecha = getFecha(cursor)
+        numero = get_numero(cursor)
+        sqlQuery = "insert into registros " \
+                   "(diarios, fecha) values ( " \
+                   "%s, %s)"
+        cursor.execute(sqlQuery, [numero[0], fecha[0]])
         conn.commit()
         conn.close()
         elapsed_t = time.process_time() - t
