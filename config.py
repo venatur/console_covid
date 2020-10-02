@@ -13,6 +13,7 @@ class Config(object):
     URL = "http://datosabiertos.salud.gob.mx/gobmx/salud/datos_abiertos/datos_abiertos_covid19.zip"
     #URL = "http://epidemiologia.salud.gob.mx/gobmx/salud/datos_abiertos/datos_abiertos_covid19.zip"
     ZIP_FILE = "res/covid.zip"
+    HISTORY = "res/history/"
     PARAMS_DIC = {
         "host": "localhost",
         "database": "covid",

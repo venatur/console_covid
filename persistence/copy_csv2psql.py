@@ -1,13 +1,17 @@
-import psycopg2
 from logger import Logger
 import time
 import csv
 import sys
+import os
 
-
+"""class with method to copy data to daily table on postgres database"""
 class CopyCsv:
 
     def copy_from_file(self, conn, path):
+        """recieves connection variable and path of csv file, insterts row by row data to database
+        function(conn[connector from postgres_connect class], path[path of csv file]) -> instert rows
+        and change values before insertions
+        """
         t = time.process_time()
         log = Logger()
         cursor = conn.cursor()
@@ -18,6 +22,7 @@ class CopyCsv:
                 f_ing = row['FECHA_INGRESO']
                 f_sint = row['FECHA_SINTOMAS']
                 f_def = row['FECHA_DEF']
+                muni = row['MUNICIPIO_RES']
                 compar = '9999-99-99'
                 if f_ing == '9999-99-99':
                     f_ing = None
@@ -25,9 +30,11 @@ class CopyCsv:
                     f_sint = None
                 elif f_def == compar:
                     f_def = None
+                if not muni.isdigit():
+                    muni = None
 
                 sqlInsert = \
-                    "INSERT INTO covida (fecha_actualizacion, id_registro, origen, " \
+                    "INSERT INTO new_data (fecha_actualizacion, id_registro, origen, " \
                     "sector, entidad_um, sexo, entidad_nac, entidad_res, municipio_res," \
                     "tipo_paciente,fecha_ingreso, fecha_sintomas, fecha_def, intubado, neumonia, edad," \
                     "nacionalidad,embarazo, habla_lengua_indig, diabetes, epoc, asma, inmusupr, hipertension, otra_com," \
@@ -41,7 +48,7 @@ class CopyCsv:
                                            row['SEXO'],
                                            row['ENTIDAD_NAC'],
                                            row['ENTIDAD_RES'],
-                                           row['MUNICIPIO_RES'],
+                                           muni,
                                            row['TIPO_PACIENTE'],
                                            f_ing,
                                            f_sint,
@@ -69,6 +76,8 @@ class CopyCsv:
                                            row['PAIS_ORIGEN'],
                                            row['UCI']
                                            ])
+
+
                 conn.commit()
         except csv.Error as e:
             sys.exit('file {}, line {}: {}'.format(path, reader.line_num, e))
@@ -76,4 +85,3 @@ class CopyCsv:
         cursor.close()
         elapsed_t = time.process_time() - t
         log.log('Datos copiados a tabla', elapsed_t)
-

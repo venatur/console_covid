@@ -12,7 +12,7 @@ class Unzip:
         with zipfile.ZipFile(path, "r") as zip_ref:
             zip_ref.extractall(file)
             elapsed_t = time.process_time() - t
-            obj_log.log('Archivo decompreso', elapsed_t)
+            obj_log.log('Archivo descomprimido ' + file, elapsed_t)
             name = zip_ref.namelist()
             return name[0]
 

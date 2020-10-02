@@ -3,34 +3,39 @@ from persistence.postgres_connect import Connection
 from config import Config
 from persistence.download_url import DownloadUrl
 from persistence.copy_csv2psql import CopyCsv
-from logger import Logger
 import os
-from persistence.create_dbs import CreateDb
+from extras.create_dbs import CreateDb
 from persistence.create_cat import CreateCat
 from persistence.create_dir import CreateDir
+from persistence.toRegistros import ToRegistros
+from persistence.saveChangesDb import SaveDataChanges
+from persistence.save_nuevos import SaveNuevos
+from persistence.deleteFromDB import DeleteFromDB
+from persistence.yesterdayData import YesterdayData
+from persistence.saveCountData import SaveCountNuevos
 
 
 class DaoCovid(Connection):
 
     def __init__(self):
         self.objc = Connection()
-
-        obj = Logger()
         self.url = Config.URL
         self.path = Config.ZIP_FILE
         self.path_r = Config.UPLOAD_FOLDER
         self.extension = Config.EXTENSION
         self.cat_url = Config.CATALOGOS
+        self.hist_path = Config.HISTORY
 
-        self.create_dir()
-        self.searching_ext()
-        self.download_resource(obj)
-        self.path_csv = self.unzip_resource()
-        self.create_db()
-        self.copy_data_todb()
-        self.copy_data_cat()
-
-    def download_resource(self, obj):
+        #self.create_dir()
+        #self.searching_ext()
+        #self.download_resource()
+        #self.path_csv = self.unzip_resource()
+        #self.create_db()
+        #self.copy_data_todb()
+        #self.copy_data_cat()
+        #self.compareOldNew()
+        #self.saveChanges()
+    def download_resource(self):
         obj_down = DownloadUrl()
         obj_down.download(self.url, self.path)
 
@@ -51,10 +56,10 @@ class DaoCovid(Connection):
         obj_create = CreateDb()
         obj_create.create_table(conn)
 
-    def copy_data_todb(self):
+    def copy_data_todb(self, path_csv):
         conn = self.objc.connect()
         obj_copy = CopyCsv()
-        obj_copy.copy_from_file(conn, self.path_r+self.path_csv)
+        obj_copy.copy_from_file(conn, path_csv)
 
     def copy_data_cat(self):
         conn = self.objc.connect()
@@ -64,3 +69,34 @@ class DaoCovid(Connection):
     def create_dir(self):
         obj_create = CreateDir()
         obj_create.create_dir(self.path_r)
+
+    def compareOldNew(self):
+        conn = self.objc.connect()
+        obj_regs = ToRegistros()
+        obj_regs.copyToRegistros(conn)
+
+    def saveChanges(self):
+        conn = self.objc.connect()
+        obj_regs = SaveDataChanges()
+        obj_regs.SaveData(conn)
+
+    def saveNuevos(self):
+        conn = self.objc.connect()
+        obj_regs = SaveNuevos()
+        obj_regs.SaveData(conn)
+
+    def deleteDb(self):
+        conn = self.objc.connect()
+        obj_regs = DeleteFromDB(conn)
+        obj_regs.deleteData()
+
+    def saveYesterday(self):
+        conn = self.objc.connect()
+        obj_regs = YesterdayData()
+        obj_regs.SaveData(conn)
+
+    def saveCountNuevos(self):
+        conn = self.objc.connect()
+        obj_regs = SaveCountNuevos()
+        obj_regs.SaveData(conn)
+
