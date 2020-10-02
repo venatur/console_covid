@@ -12998,3 +12998,123 @@ Log is due on 01/10/2020 15:22:30
 
 Datos de nuevos registros copiados a tabla
 Time:0:00:00
+
+Log is due on 02/10/2020 00:38:34
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 02/10/2020 00:40:34
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 02/10/2020 00:41:34
+
+saved at 2020-10-02
+Time:0:00:00.359375
+
+Log is due on 02/10/2020 00:41:34
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 02/10/2020 00:42:17
+
+descarga realizada
+Time:0:00:00.328125
+
+Log is due on 02/10/2020 00:42:18
+
+Archivo descomprimido res/
+Time:0:00:00.968750
+
+Log is due on 02/10/2020 00:45:15
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 02/10/2020 00:46:15
+
+saved at 2020-10-02
+Time:0:00:00.390625
+
+Log is due on 02/10/2020 00:46:15
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 02/10/2020 00:46:57
+
+descarga realizada
+Time:0:00:00.468750
+
+Log is due on 02/10/2020 00:46:58
+
+Archivo descomprimido res/
+Time:0:00:00.937500
+
+Log is due on 02/10/2020 00:53:21
+
+Datos copiados a tabla
+Time:0:02:36.890625
+
+Log is due on 02/10/2020 00:53:22
+
+Registro en Registros
+Time:0:00:00.171875
+
+Log is due on 02/10/2020 00:53:26
+
+Datos de cambios copiados a tabla
+Time:0:00:00.078125
+
+Log is due on 02/10/2020 00:53:37
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00.140625
+
+Log is due on 02/10/2020 00:53:39
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 02/10/2020 00:54:04
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 02/10/2020 00:54:05
+
+Datos de nuevos registros copiados a tabla
+Time:0:00:00
+
+Log is due on 02/10/2020 00:55:05
+
+saved at 2020-10-02
+Time:0:02:39.093750
+
+Log is due on 02/10/2020 00:55:06
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 02/10/2020 00:55:48
+
+descarga realizada
+Time:0:00:00.343750
+
+Log is due on 02/10/2020 00:55:49
+
+Archivo descomprimido res/
+Time:0:00:00.859375
+
+Log is due on 02/10/2020 01:02:36
+
+Datos copiados a tabla
+Time:0:02:53.031250
+
+Log is due on 02/10/2020 01:02:37
+
+Registro en Registros
+Time:0:00:00.125000
