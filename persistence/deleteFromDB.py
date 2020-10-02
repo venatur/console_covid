@@ -50,3 +50,11 @@ class DeleteFromDB():
         self.conn.commit()
         elapsed_t = time.process_time() - t
         self.log.log('datos borrados de tabla registros', elapsed_t)
+
+    def delete_nuevos_count(self):
+        t = time.process_time()
+        sql = "delete from nuevos_count"
+        self.cursor.execute(sql)
+        self.conn.commit()
+        elapsed_t = time.process_time() - t
+        self.log.log('datos borrados de tabla registros', elapsed_t)

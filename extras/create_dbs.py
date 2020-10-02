@@ -6,7 +6,8 @@ from persistence.postgres_connect import Connection
 class CreateDb(Logger):
     def __init__(self):
         self.objc = Connection()
-        self.create_table(self.objc)
+        conn = self.objc.connect()
+        self.create_table(conn)
 
     def create_table(self, conn):
         obj_t = Logger()
@@ -221,8 +222,17 @@ class CreateDb(Logger):
                                                     fecha  DATE
                                                 );
                                             """)
+        cursor.execute("""
+                                                        CREATE TABLE IF NOT EXISTS nuevos_count (
+                                                            diarios  INTEGER,
+                                                            fecha  DATE
+                                                        );
+                                                    """)
 
         conn.commit()
         conn.close()
         elapsed_t = time.process_time() - t
         obj_t.log('Tablas creadas', elapsed_t)
+
+
+obj = CreateDb()

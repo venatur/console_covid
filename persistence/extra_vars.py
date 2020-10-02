@@ -12,3 +12,6 @@ def get_numero(cursor):
     cursor.execute(sqlQuery)
     numero = cursor.fetchone()
     return numero
+
+
+
