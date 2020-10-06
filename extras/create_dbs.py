@@ -130,7 +130,8 @@ class CreateDb(Logger):
                                    migrante INTEGER,
                                    pais_nacionalidad INTEGER,
                                    pais_origen INTEGER,
-                                   uci INTEGER
+                                   uci INTEGER,
+                                   fecha DATE
                                );
                            """)
         cursor.execute("""
