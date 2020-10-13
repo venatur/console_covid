@@ -7,7 +7,7 @@ class UpdateDb(Logger):
     def __init__(self):
         self.objc = Connection()
         conn = self.objc.connect()
-        self.create_table(conn)
+        self.update_table(conn)
 
     def update_table(self, conn):
         obj_t = Logger()
@@ -39,6 +39,7 @@ class UpdateDb(Logger):
             add column toma_muestra INTEGER ,
             add column clasificacion_final INTEGER
                     """)
+        conn.commit()
         cursor.execute("""ALTER TABLE new_data 
     rename COLUMN resultado to resultado_lab
                             """)
