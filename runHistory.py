@@ -27,7 +27,9 @@ def listar():
             objD.delete_old_data()
             #oldata
             obj.saveYesterday()
-            #nuevos registros
+            #data historica
+            obj.saveHistory()
+    # nuevos registros
     obj.saveCountNuevos()
 
 obj = DaoCovid()

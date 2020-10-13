@@ -15,6 +15,7 @@ def decompress():
     jul = []
     ago = []
     sep = []
+    oct = []
     listado = []
     for item in result:
         if item.endswith('.{}'.format(extension)):
@@ -34,8 +35,10 @@ def decompress():
             ago.append(lista[item])
         elif lista[item][-10] == '9':
             sep.append(lista[item])
+        elif lista[item][-10] == '10':
+            sep.append(lista[item])
 
-    listado = abr+may+jun+jul+ago+sep
+    listado = abr+may+jun+jul+ago+sep+oct
     [obj.unizip_file(listado[item], path_r) for item in range(len(listado))]
 
 

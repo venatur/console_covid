@@ -26,6 +26,8 @@ def job():
     objD.delete_old_data()
     # oldata
     obj.saveYesterday()
+    # data historica
+    obj.saveHistory()
     # nuevos registros
     obj.saveCountNuevos()
 
@@ -33,7 +35,7 @@ def job():
 obj_log = Logger()
 obj = DaoCovid()
 objD = DeleteFromDB()
-schedule.every(1).minutes.do(job)
+schedule.every(24).hours.do(job)
 
 while True:
     schedule.run_pending()

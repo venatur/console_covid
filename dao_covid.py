@@ -12,6 +12,7 @@ from persistence.saveChangesDb import SaveDataChanges
 from persistence.save_nuevos import SaveNuevos
 from persistence.deleteFromDB import DeleteFromDB
 from persistence.yesterdayData import YesterdayData
+from persistence.saveHistory import HistoryData
 from persistence.saveCountData import SaveCountNuevos
 
 
@@ -98,5 +99,10 @@ class DaoCovid(Connection):
     def saveCountNuevos(self):
         conn = self.objc.connect()
         obj_regs = SaveCountNuevos()
+        obj_regs.SaveData(conn)
+
+    def saveHistory(self):
+        conn = self.objc.connect()
+        obj_regs = HistoryData()
         obj_regs.SaveData(conn)
 

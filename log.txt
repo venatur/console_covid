@@ -13118,3 +13118,968 @@ Log is due on 02/10/2020 01:02:37
 
 Registro en Registros
 Time:0:00:00.125000
+
+Log is due on 05/10/2020 17:01:35
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 05/10/2020 17:01:35
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 05/10/2020 17:02:12
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 05/10/2020 17:02:12
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 05/10/2020 17:08:57
+
+Datos copiados a tabla
+Time:0:02:55.515625
+
+Log is due on 05/10/2020 17:08:57
+
+Registro en Registros
+Time:0:00:00.078125
+
+Log is due on 05/10/2020 17:08:58
+
+Datos de cambios copiados a tabla
+Time:0:00:00.140625
+
+Log is due on 05/10/2020 17:09:07
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00.140625
+
+Log is due on 05/10/2020 17:09:07
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 05/10/2020 17:09:17
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 05/10/2020 17:09:18
+
+Datos de nuevos registros copiados a tabla
+Time:0:00:00
+
+Log is due on 07/10/2020 14:49:14
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 07/10/2020 14:59:14
+
+saved at 2020-10-07
+Time:0:00:00.453125
+
+Log is due on 07/10/2020 14:59:14
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 07/10/2020 15:00:06
+
+descarga realizada
+Time:0:00:00.296875
+
+Log is due on 07/10/2020 15:00:07
+
+Archivo descomprimido res/
+Time:0:00:01.093750
+
+Log is due on 07/10/2020 15:07:31
+
+Datos copiados a tabla
+Time:0:03:02.828125
+
+Log is due on 07/10/2020 15:07:33
+
+Registro en Registros
+Time:0:00:00.171875
+
+Log is due on 07/10/2020 15:08:19
+
+Datos de cambios copiados a tabla
+Time:0:00:00.187500
+
+Log is due on 07/10/2020 15:08:41
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00.109375
+
+Log is due on 07/10/2020 15:08:50
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 07/10/2020 15:09:11
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 07/10/2020 15:09:13
+
+Datos de nuevos registros copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:26:39
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 08/10/2020 14:26:39
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:26:47
+
+Datos copiados a tabla
+Time:0:00:04
+
+Log is due on 08/10/2020 14:26:54
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:27:00
+
+Datos de cambios copiados a tabla
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:27:01
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:05
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:06
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:15
+
+Datos copiados a tabla
+Time:0:00:03.609375
+
+Log is due on 08/10/2020 14:28:15
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:16
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:16
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:28:16
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:16
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:17
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:17
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:26
+
+Datos copiados a tabla
+Time:0:00:04.203125
+
+Log is due on 08/10/2020 14:28:26
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:26
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:26
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:28:26
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:26
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:26
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:27
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:37
+
+Datos copiados a tabla
+Time:0:00:04.765625
+
+Log is due on 08/10/2020 14:28:37
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:37
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:37
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:37
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:37
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:38
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:38
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:48
+
+Datos copiados a tabla
+Time:0:00:04.953125
+
+Log is due on 08/10/2020 14:28:49
+
+Registro en Registros
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:28:49
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:49
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:49
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:49
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:49
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:28:49
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:01
+
+Datos copiados a tabla
+Time:0:00:05.093750
+
+Log is due on 08/10/2020 14:29:01
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:01
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:01
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:02
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:02
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:02
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:02
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:14
+
+Datos copiados a tabla
+Time:0:00:05.125000
+
+Log is due on 08/10/2020 14:29:14
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:14
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:14
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:29:14
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:14
+
+Datos de cambios copiados a tabla
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:29:15
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:15
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:26
+
+Datos copiados a tabla
+Time:0:00:04.843750
+
+Log is due on 08/10/2020 14:29:26
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:27
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:27
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:29:27
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:27
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:27
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:27
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:40
+
+Datos copiados a tabla
+Time:0:00:05.015625
+
+Log is due on 08/10/2020 14:29:40
+
+Registro en Registros
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:29:40
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:40
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:41
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:41
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:41
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:41
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:53
+
+Datos copiados a tabla
+Time:0:00:05.640625
+
+Log is due on 08/10/2020 14:29:53
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:53
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:53
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:54
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:54
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:54
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:29:54
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:07
+
+Datos copiados a tabla
+Time:0:00:06.046875
+
+Log is due on 08/10/2020 14:30:07
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:07
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:07
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:07
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:07
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:07
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:07
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:21
+
+Datos copiados a tabla
+Time:0:00:06.078125
+
+Log is due on 08/10/2020 14:30:21
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:21
+
+Datos de cambios copiados a tabla
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:30:21
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:30:22
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:22
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:22
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:22
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:37
+
+Datos copiados a tabla
+Time:0:00:06.468750
+
+Log is due on 08/10/2020 14:30:37
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:37
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:38
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:38
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:38
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:38
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:38
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:54
+
+Datos copiados a tabla
+Time:0:00:06.984375
+
+Log is due on 08/10/2020 14:30:54
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:54
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:55
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:30:55
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:55
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:55
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:30:55
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:11
+
+Datos copiados a tabla
+Time:0:00:07.437500
+
+Log is due on 08/10/2020 14:31:12
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:12
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:12
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:12
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:12
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:13
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:13
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:28
+
+Datos copiados a tabla
+Time:0:00:07.359375
+
+Log is due on 08/10/2020 14:31:28
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:29
+
+Datos de cambios copiados a tabla
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:31:29
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:31:29
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:29
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:29
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:30
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:47
+
+Datos copiados a tabla
+Time:0:00:07.218750
+
+Log is due on 08/10/2020 14:31:48
+
+Registro en Registros
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:31:48
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:48
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:48
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:48
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:49
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:31:49
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:08
+
+Datos copiados a tabla
+Time:0:00:08.203125
+
+Log is due on 08/10/2020 14:32:08
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:09
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:09
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:32:09
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:09
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:09
+
+Datos de cambios copiados a tabla
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:32:10
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:30
+
+Datos copiados a tabla
+Time:0:00:09.062500
+
+Log is due on 08/10/2020 14:32:30
+
+Registro en Registros
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:32:30
+
+Datos de cambios copiados a tabla
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:32:30
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:30
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:31
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:32
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:33
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:54
+
+Datos copiados a tabla
+Time:0:00:09.687500
+
+Log is due on 08/10/2020 14:32:54
+
+Registro en Registros
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:54
+
+Datos de cambios copiados a tabla
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:32:55
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00.015625
+
+Log is due on 08/10/2020 14:32:55
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:55
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:55
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 14:32:56
+
+Datos de nuevos registros copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 15:01:20
+
+Tablas creadas
+Time:0:00:00
+
+Log is due on 08/10/2020 15:01:20
+
+datos borrados de tabla newdata
+Time:0:00:00
+
+Log is due on 08/10/2020 15:07:51
+
+Datos copiados a tabla
+Time:0:02:44.125000
+
+Log is due on 08/10/2020 15:07:52
+
+Registro en Registros
+Time:0:00:00.093750
+
+Log is due on 08/10/2020 15:07:52
+
+Datos de cambios copiados a tabla
+Time:0:00:00.125000
+
+Log is due on 08/10/2020 15:08:02
+
+Datos de cambios copiados a tabla Nuevos
+Time:0:00:00.187500
+
+Log is due on 08/10/2020 15:08:02
+
+datos borrados de tabla old_data
+Time:0:00:00
+
+Log is due on 08/10/2020 15:08:12
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 15:08:29
+
+Datos de cambios copiados a tabla
+Time:0:00:00
+
+Log is due on 08/10/2020 15:08:30
+
+Datos de nuevos registros copiados a tabla
+Time:0:00:00

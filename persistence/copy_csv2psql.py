@@ -79,6 +79,7 @@ class CopyCsv:
 
 
                 conn.commit()
+
         except csv.Error as e:
             sys.exit('file {}, line {}: {}'.format(path, reader.line_num, e))
 
